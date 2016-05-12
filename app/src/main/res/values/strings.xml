@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">FoodHeaven</string>
+
+    <string-array name="prices">
+        <item>5</item>
+        <item>1</item>
+        <item>4</item>
+        <item>3</item>
+        <item>9</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="prices2">
+        <item>14</item>
+        <item>11</item>
+        <item>15</item>
+        <item>8</item>
+        <item>10</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="prices3">
+        <item>10</item>
+        <item>9</item>
+        <item>12</item>
+        <item>8</item>
+        <item>9</item>
+        <item>7</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="prices4">
+        <item>9</item>
+        <item>11</item>
+        <item>7</item>
+        <item>5</item>
+        <item>10</item>
+        <item>13</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="prices5">
+        <item>3</item>
+        <item>7</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>2</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="Pakistani">
+        <item>Biryani</item>
+        <item>Kofte</item>
+        <item>Nihari</item>
+        <item>Chiken Tikka</item>
+        <item>Kabab</item>
+        <item>Daal Mash</item>
+
+    </string-array>
+
+    <string-array name="Turkish">
+        <item>Ezogelin çorbası</item>
+        <item>Kuzu kapama</item>
+        <item>Haşlama</item>
+        <item>Türlü</item>
+        <item>Adana kebap</item>
+        <item>Testi kebabı</item>
+    </string-array>
+
+    <string-array name="Fast_Food">
+        <item>Zinger Burger</item>
+        <item>French Fries</item>
+        <item>Double Cheeze Burger</item>
+        <item>Lunch Burger</item>
+        <item>Beef-Ribs</item>
+        <item>Chicken Broast</item>
+    </string-array>
+
+    <string-array name="HotDrinks">
+        <item>Expresso</item>
+        <item>Hot Tea</item>
+        <item>Cappiccino</item>
+        <item>Coffee</item>
+        <item>Latte</item>
+        <item>Mocha</item>
+    </string-array>
+
+    <string-array name="Juices">
+        <item>Orange Juice</item>
+        <item>Pineapple Juice</item>
+        <item>Ice Lemon</item>
+        <item>Romarita</item>
+        <item>Strawberry Kiwi</item>
+        <item>Mojito</item>
+    </string-array>
+
+    <string-array name="Malay">
+        <item>Nasi Goreng Biasa</item>
+        <item>Nasi Goreng Ayam</item>
+        <item>Nasi Goreng Dagang</item>
+        <item>Nasi Goreng Kuniat</item>
+        <item>Nasi Goreng USA</item>
+        <item>Nasi Goreng Pataya</item>
+    </string-array>
+
+    <string-array name="Arabic">
+        <item>Chickin Mandi</item>
+        <item>Shawarma</item>
+        <item>Harissa</item>
+        <item>Molok</item>
+        <item>Khabsa Lamb</item>
+        <item>Sishtwook</item>
+    </string-array>
+
+
+
+</resources>

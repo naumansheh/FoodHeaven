@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/Green"
+        android:id="@+id/frameLayout2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="CUISINES"
+            android:id="@+id/textView13"
+            android:textSize="50px"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="left|bottom"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"/>
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@+id/frameLayout2"
+        android:layout_alignParentStart="true">
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Turkish"
+            android:id="@+id/radioButton"
+            android:checked="false"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="50px"
+            />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arabic"
+                android:id="@+id/radioButton2"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:checked="false"
+                android:textSize="50px"
+                />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Malay"
+                android:id="@+id/radioButton3"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:checked="false"
+                android:textSize="50px"
+                />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pakistani"
+                android:id="@+id/radioButton4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:checked="false"
+                android:textSize="50px"
+                />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fast Food"
+                android:id="@+id/radioButton5"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:checked="false"
+                android:textSize="50px"
+                />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Juices"
+                android:id="@+id/radioButton6"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:checked="false"
+                android:textSize="50px"
+                />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hot Drinks"
+                android:id="@+id/radioButton7"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:checked="false"
+                android:textSize="50px" />
+
+        </RadioGroup>
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="NEXT"
+        android:id="@+id/button3"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/button"/>
+</RelativeLayout>
